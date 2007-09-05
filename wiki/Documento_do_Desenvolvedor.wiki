@@ -2,7 +2,7 @@
  *Os componentes do grupo e os papéis desempenhados por cada integrante; 
  *A linguagem de programação a ser utilizada e se o sistema será web ou desktop;
  *Apresentar o ambiente de desenvolvimento a ser utilizado, assim como as justificativas por estar utilizando o ambiente e; 
- *Informações sobre como acessar o projeto no Google Code (http://code.google.com/hosting._
+ *Informações sobre como acessar o projeto no Google Code (http://code.google.com/hosting. _
 
 =Tarefas Desempenhadas=
 
