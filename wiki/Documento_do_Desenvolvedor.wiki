@@ -1,13 +1,325 @@
-#summary One-sentence summary of this page.
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 2.2  (Win32)">
+	<META NAME="AUTHOR" CONTENT="Val&eacute;ria">
+	<META NAME="CREATED" CONTENT="20070509;16080000">
+	<META NAME="CHANGED" CONTENT="20070905;20072439">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { size: 21.59cm 27.94cm; margin-left: 3cm; margin-right: 3cm; margin-top: 2.5cm; margin-bottom: 2.5cm }
+		P { margin-top: 0.11cm; margin-bottom: 0.11cm; direction: ltr; color: #000000; text-align: justify; widows: 2; orphans: 2 }
+		P.western { font-family: "Verdana", sans-serif; font-size: 10pt; so-language: pt-BR }
+		P.cjk { font-family: "Times New Roman", serif; font-size: 10pt; so-language: zxx }
+		P.ctl { font-family: "Times New Roman", serif; font-size: 10pt; so-language: ar-SA }
+		TD P { margin-top: 0.11cm; margin-bottom: 0.11cm; direction: ltr; color: #000000; text-align: justify; widows: 2; orphans: 2 }
+		TD P.western { font-family: "Verdana", sans-serif; font-size: 10pt; so-language: pt-BR }
+		TD P.cjk { font-family: "Times New Roman", serif; font-size: 10pt; so-language: zxx }
+		TD P.ctl { font-family: "Times New Roman", serif; font-size: 10pt; so-language: ar-SA }
+		H2 { margin-top: 0cm; margin-bottom: 0cm; direction: ltr; color: #000000; text-align: justify; widows: 2; orphans: 2 }
+		H2.western { font-family: "Verdana", sans-serif; font-size: 12pt; so-language: pt-BR; font-style: italic }
+		H2.cjk { font-family: "Times New Roman", serif; font-size: 12pt; so-language: zxx; font-style: italic }
+		H2.ctl { font-family: "Times New Roman", serif; font-size: 12pt; so-language: ar-SA; font-style: italic }
+		A:link { color: #0000ff }
+	-->
+	</STYLE>
 
-= Introduction =
+</HEAD>
+<BODY LANG="pt-BR" TEXT="#000000" LINK="#0000ff" BGCOLOR="#ffffff" DIR="LTR">
+<P CLASS="western" STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<FONT FACE="Arial, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">	Este
+documento tem o objetivo apresentar os t&oacute;picos iniciais para a
+implementa&ccedil;&atilde;o do projeto SYSCO. </FONT></FONT>
+</P>
+<UL>
+	<UL>
+		<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+		<FONT FACE="Arial, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Os
+		componentes do grupo e os pap&eacute;is desempenhados por cada
+		integrante; </FONT></FONT>
 
-Add your content here.
+		</P>
+		<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+		<FONT FACE="Arial, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">A
+		linguagem de programa&ccedil;&atilde;o a ser utilizada e se o
+		sistema ser&aacute; web ou desktop;</FONT></FONT></P>
+		<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+		<FONT FACE="Arial, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Apresentar
+		o ambiente de desenvolvimento a ser utilizado, assim como as
+		justificativas por estar utilizando o ambiente e; </FONT></FONT>
+		</P>
 
+		<LI><P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+		<FONT FACE="Arial, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt">Informa&ccedil;&otilde;es
+		sobre como acessar o projeto no Google Code
+		(http://code.google.com/hosting)</FONT></FONT></P>
+	</UL>
+</UL>
+<P CLASS="western" STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<BR>
+</P>
+<P CLASS="western" STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<FONT FACE="Arial, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt"><B>Tarefas
+Desempenhados</B></FONT></FONT></P>
+<TABLE WIDTH=589 BORDER=1 BORDERCOLOR="#000000" CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=209>
 
-= Details =
+	<COL WIDTH=350>
+	<TR>
+		<TD COLSPAN=2 WIDTH=573 VALIGN=TOP BGCOLOR="#e5e5e5">
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-top: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B>Tarefas
+			desempenhadas na Implementa&ccedil;&atilde;o</B></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=209 BGCOLOR="#e5e5e5">
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-top: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B>Papel
+			Desempenhado</B></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=350 BGCOLOR="#e5e5e5">
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-top: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=2><B>Equipe
+			</B></FONT></FONT>
+			</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+
+		<TD WIDTH=209>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-top: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Gerente
+			de Projetos</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=350>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-top: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=2><I>Val&eacute;ria
+			A. A. Barbosa</I></FONT></FONT></P>
+		</TD>
+	</TR>
+
+	<TR VALIGN=TOP>
+		<TD WIDTH=209>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-top: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Desenvolvedor</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=350>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-top: 0cm; margin-bottom: 0cm">
+			<FONT FACE="Arial, sans-serif"><FONT SIZE=2><I>Chrystiane Ribeiro
+			Ara&uacute;jo</I></FONT></FONT></P>
+
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-top: 0cm; margin-bottom: 0cm">
+			<FONT FACE="Arial, sans-serif"><FONT SIZE=2><I>Claudio Novaes
+			Figueira</I></FONT></FONT></P>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-top: 0cm"><A NAME="DDE_LINK"></A>
+			<FONT FACE="Arial, sans-serif"><FONT SIZE=2><I>Fl&aacute;vio
+			Sant&acute;Anna</I></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+
+		<TD WIDTH=209>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-top: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Gerente
+			de Testes</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=350>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-top: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=2><I>Fl&aacute;vio
+			Sant&acute;Anna</I></FONT></FONT></P>
+		</TD>
+	</TR>
+
+	<TR VALIGN=TOP>
+		<TD WIDTH=209>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-top: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=2><SPAN STYLE="background: transparent">Testador</SPAN></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=350>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-top: 0cm; margin-bottom: 0cm">
+			<FONT FACE="Arial, sans-serif"><FONT SIZE=2><I><SPAN STYLE="background: transparent">Chrystiane
+			Ribeiro Ara&uacute;jo</SPAN></I></FONT></FONT></P>
+
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-top: 0cm; margin-bottom: 0cm">
+			<FONT FACE="Arial, sans-serif"><FONT SIZE=2><I><SPAN STYLE="background: transparent">Claudio
+			Novaes Figueira</SPAN></I></FONT></FONT></P>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-top: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=2><I><SPAN STYLE="background: transparent">Val&eacute;ria
+			A. A. Barbosa</SPAN></I></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=209>
+
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-top: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Desenvolvedor
+			Integrador</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=350>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-top: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=2><I>Chrystiane
+			Ribeiro Ara&uacute;jo</I></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR>
+
+		<TD WIDTH=209 VALIGN=TOP>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-top: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=2>Web
+			Design</FONT></FONT></P>
+		</TD>
+		<TD WIDTH=350>
+			<P CLASS="western" ALIGN=CENTER STYLE="margin-top: 0cm"><FONT FACE="Arial, sans-serif"><FONT SIZE=2><I>Val&eacute;ria
+			A. A. Barbosa</I></FONT></FONT></P>
+		</TD>
+	</TR>
+
+</TABLE>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; font-style: normal; line-height: 150%">
+<FONT FACE="Arial, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt"><I>Gerente
+de Projetos:</I> respons&aacute;vel pela organiza&ccedil;&atilde;o do
+projeto e atribui&ccedil;&atilde;o de tarefas.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; font-style: normal; line-height: 150%">
+<FONT FACE="Arial, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt"><I>Desenvolvedor:</I>
+respons&aacute;vel pela implementa&ccedil;&atilde;o e codifica&ccedil;&atilde;o
+do sistema.</FONT></FONT></P>
+
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; font-style: normal; line-height: 150%">
+<FONT FACE="Arial, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt"><I>Gerente
+de Testes: </I>respons&aacute;vel pela gest&atilde;o do projeto de
+testes a ser realizado no produto.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; font-style: normal; line-height: 150%">
+<FONT FACE="Arial, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt"><I>Testador:</I>
+respons&aacute;vel por testar o programa e registrar os erros
+comportament&aacute;vis no reposit&oacute;rio de erros.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; font-style: normal; line-height: 150%">
+<FONT FACE="Arial, sans-serif"><FONT SIZE=2 STYLE="font-size: 11pt"><I>Desenvolvedor
+Integrador:</I> respons&aacute;vel pela integra&ccedil;&atilde;o dos
+diversos componentes do projeto.</FONT></FONT></P>
+
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; font-style: normal; line-height: 150%">
+<FONT FACE="Arial, sans-serif"><FONT SIZE=3><FONT SIZE=2 STYLE="font-size: 11pt"><I>Design
+de Interface</I></FONT><I>:</I> respons&aacute;vel pela constru&ccedil;&atilde;o
+do prot&oacute;tipo e o design da interface do usu&aacute;rio.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>Linguagem de
+Programa&ccedil;&atilde;o e Sistema</B></FONT></FONT></P>
+
+<P CLASS="western" ALIGN=LEFT STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<FONT FACE="Arial, sans-serif"><FONT SIZE=3>	O projeto ser&aacute;
+desenvolvido na linguagem <B>PHP</B> (Hypertext Preprocessor) por ser
+multiplataforma, permitir conex&atilde;o direta com uma grande
+quantidade de banco de dados e possuir licen&ccedil;a de software
+livre. O projeto ser&aacute; uma aplica&ccedil;&atilde;o voltada para
+web. </FONT></FONT>
+
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=3><SPAN LANG="pt-BR">Endere&ccedil;o
+oficial </SPAN></FONT></FONT></FONT><A HREF="http://www.php.net/"><FONT COLOR="#0000ff"><FONT FACE="Arial, sans-serif"><FONT SIZE=3><SPAN LANG="pt-BR"><U>www.php.net</U></SPAN></FONT></FONT></FONT></A><FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=3><SPAN LANG="pt-BR">.</SPAN></FONT></FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>Ambiente de
+desenvolvimento</B></FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+
+<FONT FACE="Arial, sans-serif"><FONT SIZE=3>	O ambiente de
+desenvolvimento a ser utilzado ser&aacute; o </FONT></FONT><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>Dev-PHP</B></FONT></FONT><FONT FACE="Arial, sans-serif"><FONT SIZE=3>
+Vers&atilde;o 2.2.0, uma IDE full-featured para PHP, sob a licen&ccedil;a
+de software livre GNU, f&aacute;cil de ser utilizada, possui c&oacute;digo
+otimizado, checagem de c&oacute;digo, conex&atilde;o com servidor FTP
+e &iacute;cone para p&aacute;ginas web. Endere&ccedil;o Oficial
+<A HREF="http://devphp.sourceforge.net/">http://devphp.sourceforge.net</A>.</FONT></FONT></P>
+
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<FONT FACE="Arial, sans-serif"><FONT SIZE=3>	O Sistema Gerenciador de
+Banco de Dados utilizado ser&aacute; o </FONT></FONT><FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>MySQL</B></FONT></FONT><FONT FACE="Arial, sans-serif"><FONT SIZE=3>,
+vers&atilde;o 5.0. Um SGBD que </FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=3><SPAN LANG="pt-BR">possui
+licen&ccedil;a de Software Livre, excelente desempenho e
+estabilidade, &eacute; </SPAN></FONT></FONT></FONT><FONT FACE="Arial, sans-serif"><FONT SIZE=3>otimizado
+para web, trabalha muito bem em conjunto com a linguagem PHP, n&atilde;o
+exige muito processamento, &eacute; port&aacute;vel e de f&aacute;cil
+utiliza&ccedil;&atilde;o. Endere&ccedil;o Oficial
+
+<A HREF="http://www.mysql.com/">http://www.mysql.com</A> </FONT></FONT>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<BR>
+</P>
+<H2 CLASS="western" ALIGN=JUSTIFY STYLE="font-style: normal; line-height: 150%">
+<FONT FACE="Arial, sans-serif"><FONT SIZE=3><B>Projeto no Google Code
+</B></FONT></FONT>
+</H2>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<BR>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<FONT FACE="Arial, sans-serif"><FONT SIZE=3>	O code.google.com &eacute;
+
+um ambiente criado pelo google para prover c&oacute;digo livre,
+i<FONT COLOR="#000000"><FONT SIZE=3>ntera&ccedil;&atilde;o com
+desenvolvedores externos e gerenciamento de projetos. Disponibiliza
+v&aacute;rias ferramentas que pretendem simplificar o desenvolvimento
+e alojamento de software, sistemas de filtragem de bugs, mailing
+lists e op&ccedil;&otilde;es de registro de software. </FONT></FONT></FONT></FONT>
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<FONT FACE="Arial, sans-serif"><FONT SIZE=3>	O usu&aacute;rio ao
+iniciar um projeto (http://code.google.com/hosting/createProject) tem
+um espa&ccedil;o de alojamento de 100mg. A p&aacute;gina do projeto
+possui:</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<FONT FACE="Arial, sans-serif"><FONT SIZE=3>	Project Home - primeira
+e principal p&aacute;gina, na qual consta a licen&ccedil;a utilizada
+pelo projeto, algumas palavras chave al&eacute;m dos usu&aacute;rios
+do projeto divididos entre respons&aacute;vel e outros pessoas
+envolvidas no projeto. Esta p&aacute;gina cont&eacute;m uma breve
+apresenta&ccedil;&atilde;o do projeto. </FONT></FONT>
+
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<FONT FACE="Arial, sans-serif"><FONT SIZE=3>	Downloads - segunda
+parte, a qual tem como fun&ccedil;&atilde;o servir de apoio de forma
+a poder disponibilizar,centralizadamente, material de apoio ao grupo
+desenvolvedor e visitantes.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<FONT FACE="Arial, sans-serif"><FONT SIZE=3>	Wiki - terceira parte
+que disponibiliza, como o pr&oacute;prio nome j&aacute; diz, um
+centro de informa&ccedil;&otilde;es em forma de textos &agrave; cerca
+do projeto.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+
+<FONT FACE="Arial, sans-serif"><FONT SIZE=3>	Issues - tem como fun&ccedil;&atilde;o
+distribuir informa&ccedil;&otilde;es de qualquer tipo &agrave; cerca
+do projeto.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<FONT FACE="Arial, sans-serif"><FONT SIZE=3>	Source &ndash; &aacute;rea
+de administra&ccedil;&atilde;o do c&oacute;digo fonte do projeto,
+atrav&eacute;s de um reposit&oacute;rio SVN. Ainda tem-se, nesta aba,
+a possibilidade de se buscar GUI e IDE de acessos ao SVN, ao final da
+p&aacute;gina. </FONT></FONT>
+
+</P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<FONT FACE="Arial, sans-serif"><FONT SIZE=3>	Administer &ndash;
+&uacute;ltima aba, vis&iacute;vel apenas ao administrador do projeto,
+apresenta uma s&eacute;rie de ferramentas que permitem ao
+administrador gerenciar todo o projeto: project sumary, project
+members, downloads, wiki, issue tracking e advanced.</FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<FONT COLOR="#000000"><FONT FACE="Arial, sans-serif"><FONT SIZE=3>Link
+do projeto SYSCO : </FONT></FONT></FONT><FONT COLOR="#0000ff"><FONT FACE="Arial, sans-serif"><FONT SIZE=3><U><A HREF="http://code.google.com/p/conexao/">http://code.google.com/p/conexao/</A><A HREF="http://code.google.com/p/conexao/">.</A></U></FONT></FONT></FONT></P>
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<BR>
+</P>
+
+<P CLASS="western" ALIGN=JUSTIFY STYLE="margin-top: 0cm; margin-bottom: 0cm; line-height: 150%">
+<BR>
+</P>
+</BODY>
+</HTML>
