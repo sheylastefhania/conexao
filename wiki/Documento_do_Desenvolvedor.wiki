@@ -1,6 +1,10 @@
-#summary One-sentence summary of this page.
+#Este documento tem o objetivo apresentar os tópicos iniciais para a implementação do projeto SYSCO. 
+Os componentes do grupo e os papéis desempenhados por cada integrante; 
+A linguagem de programação a ser utilizada e se o sistema será web ou desktop;
+Apresentar o ambiente de desenvolvimento a ser utilizado, assim como as justificativas por estar utilizando o ambiente e; 
+Informações sobre como acessar o projeto no Google Code (http://code.google.com/hosting.
 
-= Introduction =
+= Tarefas Desempenhados =
 
 Add your content here.
 
