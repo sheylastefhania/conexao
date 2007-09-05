@@ -6,7 +6,25 @@
 
 *Tarefas Desempenhadas*
 
-Add your content here.
+||Tarefas desempenhadas na Implementação||
+|| Papel Desempenhado || || Equipe || 
+|| Gerente de Projetos || ||Valéria A. A. Barbosa||
+||Desenvolvedor||
+
+Chrystiane Ribeiro Araújo
+Claudio Novaes Figueira
+Flávio Sant´Anna
+Gerente de Testes
+Flávio Sant´Anna
+Testador
+Chrystiane Ribeiro Araújo
+Claudio Novaes Figueira
+Valéria A. A. Barbosa
+Desenvolvedor Integrador
+Chrystiane Ribeiro Araújo
+Web Design
+Valéria A. A. Barbosa
+
 
 
 = Details =
