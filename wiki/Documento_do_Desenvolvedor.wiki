@@ -4,7 +4,7 @@
  * Apresentar o ambiente de desenvolvimento a ser utilizado, assim como as justificativas por estar utilizando o ambiente e; 
  * Informações sobre como acessar o projeto no Google Code (http://code.google.com/hosting. _
 
-=Tarefas Desempenhadas=
+*Tarefas Desempenhadas*
 
 Add your content here.
 
