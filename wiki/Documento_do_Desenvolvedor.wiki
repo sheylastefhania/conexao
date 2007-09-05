@@ -6,18 +6,23 @@
 
 *Tarefas Desempenhadas*
 
-||Tarefas desempenhadas na Implementação||
-|| Papel Desempenhado || || Equipe || 
-|| Gerente de Projetos || ||Valéria A. A. Barbosa||
-||Desenvolvedor||
+||           Tarefas desempenhadas na Implementação          ||
+ || Equipe  || Papel Desempenhado ||
+|| Valéria A. A. Barbosa ||Gerente de Projetos e Design de Interfaces ||
+|| Chrystiane Ribeiro Araújo || Desenvolvedor e Testador 
+|| Claudio Novaes Figueira ||
+|| Flávio Sant´Anna ||
 
-Chrystiane Ribeiro Araújo
-Claudio Novaes Figueira
-Flávio Sant´Anna
-Gerente de Testes
-Flávio Sant´Anna
-Testador
-Chrystiane Ribeiro Araújo
+
+|| 
+||||
+||||||
+||||||
+
+
+
+
+
 Claudio Novaes Figueira
 Valéria A. A. Barbosa
 Desenvolvedor Integrador
