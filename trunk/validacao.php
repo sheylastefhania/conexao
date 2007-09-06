@@ -3,27 +3,33 @@
 
 include "conecta.php";
 
-$sql= "SELECT cod_usuario,cod_func,login,senha,email FROM usuario WHERE login = '$usuario'";
+//------Testa de funcionario está ativo-------------------------------
 
-$resultado=mysql_query($sql) or die ("Ocorreu uma falha durante a consulta dos seus dados, por favor, tente novamente. Caso o problema se repita, entre em contato com o suporte técnico. ");
+    $sqlativo="SELECT * FROM funcionario,usuario where usuario.cod_func=funcionario.nome having usuario.login='$usuario' ";
 
-$linha=mysql_fetch_array($resultado);
-$achou=mysql_num_rows($resultado);
+    $result=mysql_query($sqlativo) or die ("Ocorreu uma falha durante a consulta do funcionario, por favor, tente novamente. Caso o problema se repita, entre em contato com o suporte técnico. ".mysql_error());
+
+    $linha=mysql_fetch_array($result);
+	
+    $id=$linha["cod_usuario"];
+	$funcativo=$linha["ativo"];
+
+switch($funcativo) { 
+case 'SIM': 
+
+
+	$sql= "SELECT cod_usuario,cod_func,login,senha,email FROM usuario WHERE login = '$usuario'";
+
+	$resultado=mysql_query($sql) or die ("Ocorreu uma falha durante a consulta dos dados, por 		    favor, tente novamente. Caso     o problema se repita, entre em contato com o suporte técnico. ");
+
+    $linha=mysql_fetch_array($resultado);
+    $achou=mysql_num_rows($resultado);
 
 
     $id=$linha["cod_usuario"];
 	$nome=$linha["login"];
 	$senhausu=$linha["senha"];
-	 echo $modulo;
-/*
-if ($modulo == 'alterar'){
-     header ("Location: verfuncoes.php");
-	 }else{
-	      header ("Location: alteradadosusu.php");
-
- }
- */
- $modulo="verfuncoes.php";
+	
 
 
 if(($achou < 1) and ($usuario <>'')){
@@ -42,10 +48,7 @@ elseif(($achou > 0) and ($password<>$senhausu)){
 elseif (($usuario=='') or ($password=='')){
 echo"<i> Há campo não  preenchido.  Por favor, indique um valor.</i>";
 
-}
-
-
-	else { 
+}else { 
 	
 	
 		$validacao ="1"; //usaremos essa variável para verificar se ele está logado (valor 1)
@@ -72,10 +75,17 @@ echo"<i> Há campo não  preenchido.  Por favor, indique um valor.</i>";
  	//Pronto agora redirecione o usuário para a página  DESEJADA
 	//header ("Location: '$modulo'");
 	header ("Location: verfuncoes.php");
+}
 			
-	} 
-	
-	
-	
+break;
+//--------------------------------------------------------------------
+case 'NAO':
+    echo "<i>Não é possível realizar login: Funcionario Inativo...</i>";
+ break;
+//--------------------------------------------------------------------
+case '':
+	echo "<i>Não é possível realizar login: Funcionario não foi ativado...</i>";
+ break;
+}	
 	
 ?>

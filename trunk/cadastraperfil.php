@@ -1,3 +1,6 @@
+<? session_start();?>
+:: CADASTRO DE PERFIL
+
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 
@@ -16,6 +19,7 @@ document.location=('cadastraperfil.php?estado=' + estado);
 <body>
 <p>
  <?
+if(($_SESSION[$perfilusu])=="ADMINISTRADOR") {
 include "conecta.php";
 
 $estado=$_GET['estado']; // guarda a opção escolhida  ?>
@@ -24,11 +28,13 @@ $estado=$_GET['estado']; // guarda a opção escolhida  ?>
 
 <select name='select' size=1 value='2' onChange='getStates(this);'>";
 <option value=''>-- SELECIONE UMA OPÇÃO --</option>";
-<option value='1' <? if ($estado=='1') {echo "selected='selected'";} ?> > ADICIONAR FUNCAO </option>
-<option value='2' <? if ($estado=='2') {echo "selected='selected'";} ?> > EDITAR FUNCAO </option>
-<option value='3' <? if ($estado=='3') {echo "selected='selected'";} ?> > APAGAR FUNCAO </option>
+<option value='1' <? if ($estado=='1') {echo "selected='selected'";} ?> > ADICIONAR PERFIL </option>
+<option value='2' <? if ($estado=='2') {echo "selected='selected'";} ?> > EDITAR PERFIL </option>
+<option value='3' <? if ($estado=='3') {echo "selected='selected'";} ?> > APAGAR PERFIL </option>
 </select>
 <?
+//
+
 //fazer onclick para atualizar quando for selecionado
 
 switch($estado) {
@@ -56,14 +62,14 @@ case '01': // adicionar
 	echo "<br>";
 	echo "<br>";
 	
-	echo "Funcao       :  <input name='nome' type='text' size=30><br>";
+	echo "Perfil       :  <input name='nome' type='text' size=30><br>";
 	
 	echo "<br>";
 	echo "<br>";
 												   
 //SELECT PARA TIPO FUNÇÃO	                                       }
 
-	echo "Selecione Tipo Função:  ";
+	echo "Selecione Tipo Perfil:  ";
 	echo "<select name='tpfuncao' >";
 	
 	$sql=mysql_query("SELECT * FROM TIPOFUNCAO") or die ("Houve erro na selecao da tabela");
@@ -114,7 +120,7 @@ echo "Selecione o Departamento:  ";
 	break;
 	
 //------------------------------------------------------
-case '02': // editar Funcao
+case '02': // editar Perfil
 
 
 	$sql= "SELECT * FROM funcao";
@@ -220,6 +226,13 @@ case '03': // apagar da tabela funcao
 	echo "</table>";
 	break;
 } //fim do switch case
+}elseif ($_SESSION[$perfilusu]=="") {
+   echo "<i>Voce precisa estar logado para utilizar esta página...</i>";
+}
+elseif ($_SESSION[$perfilusu]<>"ADMINISTRADOR"){
+
+    echo "<i>Voce precisa ter o perfil de administrador para utilizar esta página...</i>";
+}
 
 ?>
 

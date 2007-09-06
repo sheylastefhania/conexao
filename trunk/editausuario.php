@@ -17,7 +17,7 @@ $sql= "SELECT cod_usuario,cod_func,login,senha,email FROM usuario WHERE login = 
 	
 	echo "</tr>";
 
-	$option=1; // parâmetro usado na pagina de confirmação
+	$option=9; // parâmetro usado na pagina de confirmação
 	
 	while ($linha=mysql_fetch_array($resultado)){
 	
