@@ -35,14 +35,13 @@ Endereço oficial www.php.net.
 
  O code.google.com é um ambiente criado pelo google para prover código livre, interação com desenvolvedores externos e gerenciamento de projetos. Disponibiliza várias ferramentas que pretendem simplificar o desenvolvimento e alojamento de software, sistemas de filtragem de bugs, mailing lists e opções de registro de software. 
  O usuário ao iniciar um projeto (http://code.google.com/hosting/createProject) tem um espaço de alojamento de 100mg. A página do projeto possui:
-* Project Home - primeira e principal página, na qual consta a licença utilizada pelo projeto, algumas palavras chave além dos usuários do projeto divididos entre responsável e outros pessoas envolvidas no projeto. Esta página contém uma breve apresentação do projeto. 
-* Downloads - segunda parte, a qual tem como função servir de apoio de forma a poder disponibilizar,centralizadamente, material de apoio ao grupo desenvolvedor e visitantes.
-* Wiki - terceira parte que disponibiliza, como o próprio nome já diz, um centro de informações em forma de textos à cerca do projeto.
-* Issues - tem como função distribuir informações de qualquer tipo à cerca do projeto.
-* Source – área de administração do código fonte do projeto, através de um repositório SVN. Ainda tem-se, nesta aba, a possibilidade de se buscar GUI e IDE de acessos ao SVN, ao final da página. 
-* Administer – última aba, visível apenas ao administrador do projeto, apresenta uma série de ferramentas que permitem ao administrador gerenciar todo o projeto: project sumary, project members, downloads, wiki, issue tracking e advanced.
+ * Project Home - primeira e principal página, na qual consta a licença utilizada pelo projeto, algumas palavras chave além dos usuários do projeto divididos entre responsável e outros pessoas envolvidas no projeto. Esta página contém uma breve apresentação do projeto. 
+ * Downloads - segunda parte, a qual tem como função servir de apoio de forma a poder disponibilizar,centralizadamente, material de apoio ao grupo desenvolvedor e visitantes.
+ * Wiki - terceira parte que disponibiliza, como o próprio nome já diz, um centro de informações em forma de textos à cerca do projeto.
+ * Issues - tem como função distribuir informações de qualquer tipo à cerca do projeto.
+ * Source – área de administração do código fonte do projeto, através de um repositório SVN. Ainda tem-se, nesta aba, a possibilidade de se buscar GUI e IDE de acessos ao SVN, ao final da página. 
+ * Administer – última aba, visível apenas ao administrador do projeto, apresenta uma série de ferramentas que permitem ao administrador gerenciar todo o projeto: project sumary, project members, downloads, wiki, issue tracking e advanced.
 Link do projeto SYSCO : http://code.google.com/p/conexao/.
-
 
 
 
