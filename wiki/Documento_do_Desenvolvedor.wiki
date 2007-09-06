@@ -6,8 +6,8 @@
 
 *Tarefas Desempenhadas*
 
-||           Tarefas desempenhadas na Implementação          ||
-|| Equipe  || Papel Desempenhado ||
+              ||           *Tarefas desempenhadas na Implementação*          ||
+|| *Equipe*  || *Papel Desempenhado* ||
 || Valéria A. A. Barbosa ||Gerente de Projetos e Design de Interfaces ||
 || Chrystiane Ribeiro Araújo || Desenvolvedor e Testador ||
 || Claudio Novaes Figueira || Desenvolvedor e Testador ||
