@@ -2,7 +2,7 @@ _Este documento tem o objetivo apresentar os tópicos iniciais para a implementa
  * Os componentes do grupo e os papéis desempenhados por cada integrante; 
  * A linguagem de programação a ser utilizada e se o sistema será web ou desktop;
  * Apresentar o ambiente de desenvolvimento a ser utilizado, assim como as justificativas por estar utilizando o ambiente e; 
- * Informações sobre como acessar o projeto no Google Code (http://code.google.com/hosting. _
+ * Informações sobre como acessar o projeto no Google Code http://code.google.com/hosting. _
 
 == Tarefas desempenhadas na Implementação ==
 
@@ -14,12 +14,12 @@ _Este documento tem o objetivo apresentar os tópicos iniciais para a implementa
 || Flávio Sant´Anna || _Desenvolvedor, Engenheiro de Teste, Testador_ ||
 
 
-  *_Gerente de Projetos:_ responsável pela organização do projeto e atribuição de tarefas.
-  *_Desenvolvedor:_ responsável pela implementação e codificação do sistema.
-  *_Gerente de Testes:_ responsável pela gestão do projeto de testes a ser realizado no produto.
-  *_Testador:_ responsável por testar o programa e registrar os erros comportamentávis no repositório de erros.
-  *_Desenvolvedor Integrador:_ responsável pela integração dos diversos componentes do projeto.
-  *_Design de Interface:_ responsável pela construção do protótipo e o design da interface do usuário.
+  * _Gerente de Projetos:_ responsável pela organização do projeto e atribuição de tarefas.
+  * _Desenvolvedor:_ responsável pela implementação e codificação do sistema.
+  * _Gerente de Testes:_ responsável pela gestão do projeto de testes a ser realizado no produto.
+  * _Testador:_ responsável por testar o programa e registrar os erros comportamentávis no repositório de erros.
+  * _Desenvolvedor Integrador:_ responsável pela integração dos diversos componentes do projeto.
+  * _Design de Interface:_ responsável pela construção do protótipo e o design da interface do usuário.
 
 == Linguagem de Programação e Sistema ==
 
