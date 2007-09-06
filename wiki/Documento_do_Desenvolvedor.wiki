@@ -4,12 +4,12 @@
  * Apresentar o ambiente de desenvolvimento a ser utilizado, assim como as justificativas por estar utilizando o ambiente e; 
  * Informações sobre como acessar o projeto no Google Code (http://code.google.com/hosting. _
 
-*Tarefas Desempenhadas*
+==Tarefas Desempenhadas==
 
-              ||           *Tarefas desempenhadas na Implementação*          ||
+                       ||           *Tarefas desempenhadas na Implementação*          ||
 || *Equipe*  || *Papel Desempenhado* ||
 || Valéria A. A. Barbosa ||Gerente de Projetos e Design de Interfaces ||
-|| Chrystiane Ribeiro Araújo || Desenvolvedor e Testador ||
+|| Chrystiane Ribeiro Araújo || Desenvolvedor,Integrador e Testador ||
 || Claudio Novaes Figueira || Desenvolvedor e Testador ||
 || Flávio Sant´Anna ||Desenvolvedor, Engenheiro de Teste, Testador ||
 
