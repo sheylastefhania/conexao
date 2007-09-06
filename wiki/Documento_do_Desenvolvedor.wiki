@@ -14,7 +14,7 @@ _Este documento tem o objetivo apresentar os tópicos iniciais para a implementa
 || Flávio Sant´Anna || _Desenvolvedor, Engenheiro de Teste, Testador_ ||
 
 
-  *_Gerente de Projetos:_ responsável pela organização do projeto e atribuição de tarefas.
+  *_Gerente de Projetos:_ responsável pela organização do projeto e atribuição de tarefas._
   *_Desenvolvedor:_ responsável pela implementação e codificação do sistema.
   *_Gerente de Testes:_ responsável pela gestão do projeto de testes a ser realizado no produto.
   *_Testador:_ responsável por testar o programa e registrar os erros comportamentávis no repositório de erros.
