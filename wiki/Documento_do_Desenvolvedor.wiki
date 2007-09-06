@@ -23,8 +23,7 @@ _Este documento tem o objetivo apresentar os tópicos iniciais para a implementa
 
 == Linguagem de Programação e Sistema ==
 
-O projeto será desenvolvido na linguagem *PHP* (Hypertext Preprocessor) por ser multiplataforma, permitir conexão direta com uma grande quantidade de banco de dados e possuir licença de software livre. O projeto será uma aplicação voltada para web. 
-Endereço oficial www.php.net.
+O projeto será desenvolvido na linguagem *PHP* (Hypertext Preprocessor) por ser multiplataforma, permitir conexão direta com uma grande quantidade de banco de dados e possuir licença de software livre. O projeto será uma aplicação voltada para web. Endereço oficial www.php.net
 
 == Ambiente de desenvolvimento ==
 
