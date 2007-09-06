@@ -26,7 +26,7 @@ body {
   </tr>
   <tr>
     <td width="29" align="right">&nbsp;</td>
-    <td width="551" align="right"><div align="center"></div></td>
+    <td width="551" align="right"><div align="left"></div></td>
   </tr>
   <tr>
     <td align="right">&nbsp;</td>
@@ -38,17 +38,47 @@ body {
   </tr>
   <tr>
     <td colspan="2" align="right"><div align="center">
-      <div align="left"><a href="/sysco/cadastraperfil.php" title="Cadastro de Perfil" target="_blank">Cadastro de Funções</a></div>
+      <div align="left"><a href="/sysco/cadastraperfil.php" title="Cadastro de Perfil" target="_blank">Cadastro de Perfil</a></div>
     </div></td>
   </tr>
   
   <tr>
     <td>&nbsp;</td>
-    <td><a href="/sysco/alterastatus.php" target="_blank">Alterar Status do Usuario </a></td>
+    <td><a href="/sysco/alterastatus.php" target="_blank"> :: Alterar Status do Usuario </a></td>
   </tr>
   <tr>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="/sysco/cadastrafuncionario.php" title="Cadastro de Funcionarios" target="_blank">Cadastro de Funcionarios </a></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><a href="/sysco/associarfuncionario.php" target="_blank">:: Associar Funcionario a Departamento </a></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><a href="/sysco/atribuirstatus.php" target="_blank">:: Atribuir Status a Funcionário</a></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="/sysco/index.php" target="_blank">Retornar ao inicio</a></td>
   </tr>
   <tr>
     <td colspan="2" bgcolor="#009999"><div align="center"><a href="/veiculo/login.php" target="_blank"></a>

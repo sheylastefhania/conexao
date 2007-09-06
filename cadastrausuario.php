@@ -1,6 +1,6 @@
 <? session_start();?>
 
-
+:: CADASTRO DE USUÁRIO
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 
@@ -21,7 +21,7 @@ document.location=('cadastrausuario.php?estado=' + estado);
 <? 
   
 
-//include "verperfil.php"
+
 
 if(($_SESSION[$perfilusu])=="ADMINISTRADOR") {
 

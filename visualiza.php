@@ -1,3 +1,5 @@
+:: CONFIRMAÇÃO DE CADASTRO
+
 <?php
 
     echo "<form action='confirma.php' method='post'>";
