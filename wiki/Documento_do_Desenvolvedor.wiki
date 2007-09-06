@@ -28,6 +28,7 @@ O projeto será desenvolvido na linguagem *PHP* (Hypertext Preprocessor) por ser
 == Ambiente de desenvolvimento ==
 
 O ambiente de desenvolvimento a ser utilzado será o *Dev-PHP* Versão 2.2.0, uma IDE full-featured para PHP, sob a licença de software livre GNU, fácil de ser utilizada, possui código otimizado, checagem de código, conexão com servidor FTP e ícone para páginas web. Endereço Oficial http://devphp.sourceforge.net.
+
 O Sistema Gerenciador de Banco de Dados utilizado será o *MySQL*, versão 5.0. Um SGBD que possui licença de Software Livre, excelente desempenho e estabilidade, é otimizado para web, trabalha muito bem em conjunto com a linguagem PHP, não exige muito processamento, é portável e de fácil utilização. Endereço Oficial http://www.mysql.com 
 
 == Projeto no Google Code ==
