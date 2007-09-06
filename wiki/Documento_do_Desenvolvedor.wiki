@@ -14,12 +14,12 @@
 || Flávio Sant´Anna ||Desenvolvedor, Engenheiro de Teste, Testador ||
 
 
-  _Gerente de Projetos:_ responsável pela organização do projeto e atribuição de tarefas.
-  _Desenvolvedor:_ responsável pela implementação e codificação do sistema.
-  _Gerente de Testes:_ responsável pela gestão do projeto de testes a ser realizado no produto.
-  _Testador:_ responsável por testar o programa e registrar os erros comportamentávis no repositório de erros.
-  _Desenvolvedor Integrador:_ responsável pela integração dos diversos componentes do projeto.
-  _Design de Interface:_ responsável pela construção do protótipo e o design da interface do usuário.
+  *_Gerente de Projetos:_ responsável pela organização do projeto e atribuição de tarefas.
+  *_Desenvolvedor:_ responsável pela implementação e codificação do sistema.
+  *_Gerente de Testes:_ responsável pela gestão do projeto de testes a ser realizado no produto.
+  *_Testador:_ responsável por testar o programa e registrar os erros comportamentávis no repositório de erros.
+  *_Desenvolvedor Integrador:_ responsável pela integração dos diversos componentes do projeto.
+  *_Design de Interface:_ responsável pela construção do protótipo e o design da interface do usuário.
 
 == Linguagem de Programação e Sistema ==
 
