@@ -14,12 +14,12 @@
 || Flávio Sant´Anna ||Desenvolvedor, Engenheiro de Teste, Testador ||
 
 
-_Gerente de Projetos:_ responsável pela organização do projeto e atribuição de tarefas.
-_Desenvolvedor:_ responsável pela implementação e codificação do sistema.
-_Gerente de Testes:_ responsável pela gestão do projeto de testes a ser realizado no produto.
-_Testador:_ responsável por testar o programa e registrar os erros comportamentávis no repositório de erros.
-_Desenvolvedor Integrador:_ responsável pela integração dos diversos componentes do projeto.
-_Design de Interface:_ responsável pela construção do protótipo e o design da interface do usuário.
+ _Gerente de Projetos:_ responsável pela organização do projeto e atribuição de tarefas.
+ _Desenvolvedor:_ responsável pela implementação e codificação do sistema.
+ _Gerente de Testes:_ responsável pela gestão do projeto de testes a ser realizado no produto.
+ _Testador:_ responsável por testar o programa e registrar os erros comportamentávis no repositório de erros.
+ _Desenvolvedor Integrador:_ responsável pela integração dos diversos componentes do projeto.
+ _Design de Interface:_ responsável pela construção do protótipo e o design da interface do usuário.
 
 == Linguagem de Programação e Sistema ==
 
@@ -42,7 +42,6 @@ Endereço oficial www.php.net.
  * Source – área de administração do código fonte do projeto, através de um repositório SVN. Ainda tem-se, nesta aba, a possibilidade de se buscar GUI e IDE de acessos ao SVN, ao final da página. 
  * Administer – última aba, visível apenas ao administrador do projeto, apresenta uma série de ferramentas que permitem ao administrador gerenciar todo o projeto: project sumary, project members, downloads, wiki, issue tracking e advanced.
 Link do projeto SYSCO : http://code.google.com/p/conexao/.
-
 
 
 
