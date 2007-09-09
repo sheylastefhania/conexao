@@ -10,7 +10,7 @@ _Este documento tem o objetivo apresentar os tópicos iniciais para a implementa
 || *Equipe*  || *Papel Desempenhado* ||
 || Valéria A. A. Barbosa ||_Gerente de Projetos e Design de Interfaces_ ||
 || Chrystiane Ribeiro Araújo || _Desenvolvedor,Integrador e Testador_ ||
-|| Claudio Novaes Figueira || _Design de Interfaces_ ||
+|| Claudio Novaes Figueira || _Design de Interfaces Testador_ ||
 || Flávio Sant´Anna || _Desenvolvedor, Engenheiro de Teste, Testador_ ||
 
 
