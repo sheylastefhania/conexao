@@ -1,0 +1,97 @@
+body {
+	background-color: #CCCCCC;
+	color: black;
+	font-family: serif;
+	
+}
+
+a:link { 
+ 	color: #000000; 
+	background-color: transparent;
+	text-decoration: underline;
+ 	}
+
+a:visited { 
+ 	color: #1e6414; 
+	background-color: transparent;
+	text-decoration: underline;
+ 	}
+
+a:hover { 
+ 	color: #000000; 
+	background-color: transparent;
+	text-decoration: none;
+ 	}
+
+.quote {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.hrsmall {
+	width: 80px;
+	height: 1px;
+	margin-left: 20px;
+}
+
+.td_title {
+	border-color: #3366cc;
+	border-style: solid;
+	border-width: thin;
+	color: #3366cc;
+	background-color : #f2f2f9; 
+	font-weight: bold; 
+}
+
+.translations {
+	background-color: transparent; 
+	color: black;
+	font-family: serif;
+	font-size: smaller;
+}
+
+.fsflink {
+	font-size: 12px; 
+	font-family: monospace; 
+	color : #000000; 
+	border-left: #3366cc thin solid; 
+	border-bottom: #3366cc thin solid; 
+	padding-left: 5px; 
+	padding-bottom: 5px;
+}
+
+.trans {
+	font-size: smaller; 
+	color : #000000; 
+	border-left: #3366cc thin solid; 
+	padding-left: 20px; 
+}
+
+img {
+	border: none 0;
+}
+
+td.side {
+	color: #3366cc;
+/*	background: #f2f2f9; 
+	border-color: #3366cc;
+	border-style: solid;
+	border-width: thin; */
+	border-color: white;
+	border-style: none;
+	vertical-align: top;
+	width: 150px;
+}
+
+div.copyright {
+	font-size: 80%; 
+	border: 2px solid #3366cc; 
+	padding: 4px;
+	background: #f2f2f9;
+	border-style: solid;
+	border-width: thin;
+}
+
+.footnoteref {
+	font-size: smaller; vertical-align: text-top;
+}
