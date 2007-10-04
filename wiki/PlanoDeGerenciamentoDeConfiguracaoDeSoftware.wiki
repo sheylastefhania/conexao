@@ -1,20 +1,20 @@
 = Plano de Gerência de Configuração de Software =
 
 
-== Sistema de Controle de Custos ==
+  == Sistema de Controle de Custos ==
  Cliente: Weslei A. de T. Marinho
 
-= SYSCO =
+            = SYSCO =
 
 Versão: 0.01 | 11/09/2007
-
 
 Responsáveis: Valéria A. A. Barbosa
 
 
 
 
-|| Histórico de Alterações ||
+||               Histórico de Alterações                    ||
+
 || Data || Versão || Descrição || Autor ||
 || 11/09/2007 || 0.01 || Criação Inicial || Valéria Barbosa ||
 
@@ -31,16 +31,16 @@ Responsáveis: Valéria A. A. Barbosa
 == Introdução ==
 	O Plano de Gerenciamento de Configuração estabelece e mantem a integridade de códigos-fonte e demais produtos do SYSCO, permitindo o acompanhamento destes itens durante todo o ciclo de vida do projeto, e preservando o histórico de evolução dos sistema. Auxiliando a  gerenciar o estado dos itens de configuração dos sistemas, controlar as mudanças em itens de configuração e rastrear modificações nos itens de configuração ao longo do tempo.
 		
-=== 1.1Propósito ===
-Este documento descreve a organização, nomenclatura e regras para o versionamento do projeto SYSCO.
+=== 1.1 Propósito ===
+        Este documento descreve a organização, nomenclatura e regras para o versionamento do projeto SYSCO.
 
-=== 1.2Escopo ===
-Este documento descreve toda a infra-estrutura utilizada durante o desenvolvimento do projeto SYSCO.
+=== 1.2 Escopo ===
+        Este documento descreve toda a infra-estrutura utilizada durante o desenvolvimento do projeto SYSCO.
 
-=== 1.3Convenções, termos e abreviações ===
-Esta seção explica o conceito de alguns termos importantes que serão mencionados no decorrer deste documento. Estes termos são descritos na tabela a seguir, estando apresentados por ordem alfabética. 
+=== 1.3 Convenções, termos e abreviações ===
+        Esta seção explica o conceito de alguns termos importantes que serão mencionados no decorrer deste documento. Estes termos são descritos na tabela a seguir, estando apresentados por ordem alfabética. 
 
-|| Termo || Descrição ||
+||    Termo ||  Descrição ||
 
 || Baseline || Conjunto de artefatos que recebe uma aprovação de estabilidade. Um baseline é usado como uma base no desenvolvimento das próximas fases dos artefatos e tem suas modificações controladas por um processo. ||
 || CR || Solicitação de Mudança (Change Request) ||
@@ -48,49 +48,36 @@ Esta seção explica o conceito de alguns termos importantes que serão menciona
 || SCMP || Plano de Gerência de Configuração de Software (Software Configuration Management Plan) ||
 || Core Team ||
 
+=== 1.4 Referências ===
 
 
 
- == 1.4 Referências ==
+== 2 Organização ==
 
-
-
-= 2 Organização =
-
- == 2.1 Identificação de Documentos ==
-	Todos dos itens de configuração, com exceção do código fonte, devem ser identificados baseados na nomenclatura descrita a seguir:
+== 2.1 Identificação de Documentos ==
+       Todos dos itens de configuração, com exceção do código fonte, devem ser identificados baseados na nomenclatura descrita a seguir:
 <PROJETO>_<ID_ARTEFATO>_<DATA>
 em que:
 <PROJETO> é o nome do projeto;
 <ID_ARTEFATO> é a identificação do artefato;
 <DATA> é a data de criação do artefato, ou seja, a data da primeira versão do artefato em questão. Para descrição da data o formato AAAAMMDD deve ser utilizado.
-	Por exemplo: SYSCO_SCM_20070901
-É importante salientar que todas as letras dos nomes que compõem os documentos devem estar em caixa alta.
+      Por exemplo: SYSCO_SCM_20070901
+      É importante salientar que todas as letras dos nomes que compõem os documentos devem estar em caixa alta.
 
 A apresenta os artefatos que podem ser gerados no processo e suas respectivas identificações. 
-Artefato
-Identificação
-Casos de Uso
-UC
-Documento de Arquitetura 
-ARC
-Documento de Requisitos
-REQ 
-Plano de Gerência de Configuração
-SCM
-Plano de Teste de Software
-STP
-Status Report
-ST
-Relatório de Testes
-TSR
-Story Board (documento de telas)
-STB
+
+|| Artefato || Identificação ||
+|| Casos de Uso || UC ||
+|| Documento de Arquitetura || ARC ||
+|| Documento de Requisitos || REQ ||
+|| Plano de Gerência de Configuração || SCM ||
+|| Plano de Teste de Software || STP ||
+|| Status Report || ST ||
+|| Relatório de Testes || TSR ||
+|| Story Board (documento de telas) || STB ||
 
 
-
-
-2.1 Versão dos Documentos 
+ == 2.2 Versão dos Documentos ==
 	O padrão de versionamento dos artefatos  (exceto código e relatórios) devem ter um número de versão segundo o padrão descrito a seguir: 
 				XX.YY
 onde: 
@@ -101,13 +88,13 @@ A primeira versão do artefato deve ser 0.01;
 A cada modificação no artefato, o valor YY deve ser incrementado;
 Após cada aprovação do artefato, a versão X deve ser incrementada de uma unidade e o valor YY retorna para 00, sendo assim gerada uma nova versão oficial;
 	Para que a versão de um artefato seja modificada é necessária a aprovação do moderador. É considerada uma aprovação do documento a aprovação do documento após uma revisão e aprovação por pelo menos dois membros do core group responsável pelo artefato respectivo.
-2.2 Localização de Artefatos
+ = 2.3 Localização de Artefatos =
 	A organização hierárquica do local onde serão armazenados os produtos do projeto, incluindo uma breve descrição do conteúdo de cada item da estrutura  (pasta). 
 ;
 ;
 ;
 ;
-2.3 Baselines do Projeto
+ == 2.3 Baselines do Projeto ==
 	As baselines geradas para o projeto:
 Baseline
 Descrição
@@ -139,11 +126,12 @@ Criado após a aprovação de um documento.
 <versão> é o número da versão lançada.
 
 
-Controle de Configuração 
-	3.1 Procedimentos de Mudança
+== 3 Controle de Configuração ==
+
+	=== 3.1 Procedimentos de Mudança ===
 	As mudanças nos itens de configuração do projeto devem estar sempre associadas a uma ou mais solicitações de mudanças. Dessa forma, para toda e qualquer modificação nos itens de configuração, um CR deve ser aberta conforme descrito.
 	
-	3.1.1 Política de uso de branches
+	=== 3.1.1 Política de uso de branches ===
 	As solicitações de mudanças devem ser criadas através da ferramenta de issues disponível no site do projeto http://code.google.com/p/conexao/. Para tanto o usuário deve estar logado como administrador. O preenchimento dos campos deve ser feito seguindo as orientações descritas a seguir. Devem ser aprovadas pelo core team responsável pelo artefato em questão. 
 	
 Campo
@@ -192,15 +180,16 @@ Security – segurança de risco dos usuários
 Performance – issue de desenpenho
 Usability – efeitos da usabilidade do programa
 Maintainability – impedir mudanças futuras.
-	3.1.2 Ciclo de Vida das solicitações de mudança
+	=== 3.1.2 Ciclo de Vida das solicitações de mudança ===
 	Os possíveis estados, as possíveis soluções e o ciclo de vida de uma solicitação de mudanças. A seguir são descreve os estados possíveis para uma solicitação de mudanças.
 
-Auditoria de Configuração
+ == Auditoria de Configuração ==
+
 	As auditorias de configuração devem ser realizadas para cada ciclo do processo de desenvolvimento de forma a garantir que o processo de gerência de configuração estão sendo aplicados corretamente. Os artefatos gerados devem armazenados no repositório do projeto e devem ser acompanhados pelos Gerentes do Projeto.
 Plano de Contingência
 	Uma vez por semana será feito um backup da versão mais recente dos artefatos que se encontram no CVS na máquina de dois membros da fábrica participantes do projeto.
 
-Ferramentas
+ == Ferramentas ==
 	Segue abaixo uma lista das ferramentas utilizadas no processo de desenvolvimento do projeto SYSCO.
 Ferramenta 
 Descrição
