@@ -20,14 +20,14 @@ Responsáveis: Valéria A. A. Barbosa
 
 
 
-|| Lista de Aprovadores ||
+||          Lista de Aprovadores         ||
 ||    Nome    || Cargo || 
 || Valéria Barbosa || Gerente de Projeto ||
 
 
 
 
-== Introdução ==
+== 1 Introdução ==
 
 	O Plano de Gerenciamento de Configuração estabelece e mantem a integridade de códigos-fonte e demais produtos do SYSCO, permitindo o acompanhamento destes itens durante todo o ciclo de vida do projeto, e preservando o histórico de evolução dos sistema. Auxiliando a  gerenciar o estado dos itens de configuração dos sistemas, controlar as mudanças em itens de configuração e rastrear modificações nos itens de configuração ao longo do tempo.
 		
@@ -45,7 +45,7 @@ Responsáveis: Valéria A. A. Barbosa
 || CR || Solicitação de Mudança (Change Request) ||
 || CVS || Sistema de Controle de Versão (Control Version System) ||
 || SCMP || Plano de Gerência de Configuração de Software (Software Configuration Management Plan) ||
-|| Core Team ||
+|| Core Team || ||
 
 === 1.4 Referências ===
 
@@ -53,7 +53,8 @@ Responsáveis: Valéria A. A. Barbosa
 
 == 2 Organização ==
 
-== 2.1 Identificação de Documentos ==
+=== 2.1 Identificação de Documentos ===
+
        Todos dos itens de configuração, com exceção do código fonte, devem ser identificados baseados na nomenclatura descrita a seguir:
 <PROJETO>_<ID_ARTEFATO>_<DATA>
 em que:
@@ -77,6 +78,7 @@ A apresenta os artefatos que podem ser gerados no processo e suas respectivas id
 
 
 === 2.2 Versão dos Documentos ===
+
 	O padrão de versionamento dos artefatos  (exceto código e relatórios) devem ter um número de versão segundo o padrão descrito a seguir: 
 				XX.YY
 onde: 
@@ -94,6 +96,7 @@ Após cada aprovação do artefato, a versão X deve ser incrementada de uma uni
 ;
 ;
 === 2.3 Baselines do Projeto ===
+
 	As baselines geradas para o projeto:
 || Baseline || Descrição || Padrão ||
 || Requisitos || Marcado assim que for concluída análise de requisitos da iteração. || SYSCO_REQ_<interaçao> ||
@@ -111,12 +114,14 @@ Após cada aprovação do artefato, a versão X deve ser incrementada de uma uni
 == 3 Controle de Configuração ==
 
 === 3.1 Procedimentos de Mudança ===
+
 	As mudanças nos itens de configuração do projeto devem estar sempre associadas a uma ou mais solicitações de mudanças. Dessa forma, para toda e qualquer modificação nos itens de configuração, um CR deve ser aberta conforme descrito.
 	
 === 3.1.1 Política de uso de branches ===
+
 	As solicitações de mudanças devem ser criadas através da ferramenta de issues disponível no site do projeto http://code.google.com/p/conexao/. Para tanto o usuário deve estar logado como administrador. O preenchimento dos campos deve ser feito seguindo as orientações descritas a seguir. Devem ser aprovadas pelo core team responsável pelo artefato em questão. 
 	
-|| Campo || Valor || 
+||     Campo    ||      Valor || 
 || Summary || Breve descrição do problema ||
 || Description || Descrição detalhada do problema ||
 || Status || Open Statuses: 
@@ -166,8 +171,9 @@ Plano de Contingência
 	Uma vez por semana será feito um backup da versão mais recente dos artefatos que se encontram no CVS na máquina de dois membros da fábrica participantes do projeto.
 
 == 5 Ferramentas ==
+
 	Segue abaixo uma lista das ferramentas utilizadas no processo de desenvolvimento do projeto SYSCO.
-|| Ferramenta || Descrição ||
+||    Ferramenta   ||   Descrição   ||
 || Code.google.com.br || Ambiente para promoção de código livre, interação com desenvolvedores e gerenciamento de projetos. ||
 || GantrProject || Para a Gerência do Projeto ||
 || GoogleGroups || Comunicação da equipe ||
