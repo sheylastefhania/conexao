@@ -48,6 +48,8 @@ Responsáveis: Valéria A. A. Barbosa
 || Core Team || ||
 
 
+
+
 === 1.4 Referências ===
 
 
@@ -76,6 +78,8 @@ A apresenta os artefatos que podem ser gerados no processo e suas respectivas id
 || Status Report || ST ||
 || Relatório de Testes || TSR ||
 || Story Board (documento de telas) || STB ||
+
+
 
 
 === 2.2 Versão dos Documentos ===
