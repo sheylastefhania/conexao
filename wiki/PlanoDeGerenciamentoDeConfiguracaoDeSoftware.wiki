@@ -89,12 +89,14 @@ A primeira versão do artefato deve ser 0.01;
 A cada modificação no artefato, o valor YY deve ser incrementado;
 Após cada aprovação do artefato, a versão X deve ser incrementada de uma unidade e o valor YY retorna para 00, sendo assim gerada uma nova versão oficial;
 	Para que a versão de um artefato seja modificada é necessária a aprovação do moderador. É considerada uma aprovação do documento a aprovação do documento após uma revisão e aprovação por pelo menos dois membros do core group responsável pelo artefato respectivo.
- === 2.3 Localização de Artefatos ===
+
+=== 2.3 Localização de Artefatos ===
 	A organização hierárquica do local onde serão armazenados os produtos do projeto, incluindo uma breve descrição do conteúdo de cada item da estrutura  (pasta). 
 ;
 ;
 ;
 ;
+
 === 2.3 Baselines do Projeto ===
 
 	As baselines geradas para o projeto:
@@ -128,7 +130,6 @@ Após cada aprovação do artefato, a versão X deve ser incrementada de uma uni
 New- A issue ainda não teve sua revisão inicial
 Accepted – problema reproduzido/precisa reconhecimento.
 Started – o trabalho nesta issue começou
-
 Closed Statuses:
 Fixed – Desenvolvedor fez as mudanças pedidas, QA deve verificar.
 Verified – QA verificou que o reparo foi trabalhado
@@ -136,8 +137,8 @@ Invalid – relatório não válido
 Duplicate – este relatório duplica uma issue existente
 WonFix – foi decidido não examinar esta issue ||
 || Owner || Responsável pela CR. ||
-|| Cc || Lista de destinatários de cópias de e-mails relativos a essa mudança.
-|| Labels || Permite que sejam selecionados o tipo e a prioridade  da issue, o sistema operacional...
+|| Cc || Lista de destinatários de cópias de e-mails relativos a essa mudança. ||
+|| Labels || Permite que sejam selecionados o tipo e a prioridade  da issue, o sistema operacional... 
 Type-Defect – Relato de um defeito no artefato a ser mudado.
 Type-Enhancement – Requerimento para melhoria no artefato.
 Type-Task – os artigos trabalhados não requerem mudança no código ou nos docs.
@@ -162,7 +163,8 @@ Usability – efeitos da usabilidade do programa
 Maintainability – impedir mudanças futuras. ||
 
 === 3.1.2 Ciclo de Vida das solicitações de mudança ===
-	Os possíveis estados, as possíveis soluções e o ciclo de vida de uma solicitação de mudanças. A seguir são descreve os estados possíveis para uma solicitação de mudanças.
+	
+       Os possíveis estados, as possíveis soluções e o ciclo de vida de uma solicitação de mudanças. A seguir são descreve os estados possíveis para uma solicitação de mudanças.
 
 == 4 Auditoria de Configuração ==
 
