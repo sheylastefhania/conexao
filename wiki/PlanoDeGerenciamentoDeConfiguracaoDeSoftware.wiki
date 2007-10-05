@@ -14,7 +14,6 @@ Responsáveis: Valéria A. A. Barbosa
 
 
 ||               Histórico de Alterações                    ||
-
 || Data || Versão || Descrição || Autor ||
 || 11/09/2007 || 0.01 || Criação Inicial || Valéria Barbosa ||
 
@@ -160,13 +159,13 @@ Maintainability – impedir mudanças futuras. ||
 === 3.1.2 Ciclo de Vida das solicitações de mudança ===
 	Os possíveis estados, as possíveis soluções e o ciclo de vida de uma solicitação de mudanças. A seguir são descreve os estados possíveis para uma solicitação de mudanças.
 
-== Auditoria de Configuração ==
+== 4 Auditoria de Configuração ==
 
 	As auditorias de configuração devem ser realizadas para cada ciclo do processo de desenvolvimento de forma a garantir que o processo de gerência de configuração estão sendo aplicados corretamente. Os artefatos gerados devem armazenados no repositório do projeto e devem ser acompanhados pelos Gerentes do Projeto.
 Plano de Contingência
 	Uma vez por semana será feito um backup da versão mais recente dos artefatos que se encontram no CVS na máquina de dois membros da fábrica participantes do projeto.
 
-== Ferramentas ==
+== 5 Ferramentas ==
 	Segue abaixo uma lista das ferramentas utilizadas no processo de desenvolvimento do projeto SYSCO.
 || Ferramenta || Descrição ||
 || Code.google.com.br || Ambiente para promoção de código livre, interação com desenvolvedores e gerenciamento de projetos. ||
