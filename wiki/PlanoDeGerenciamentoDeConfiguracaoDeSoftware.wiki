@@ -29,6 +29,7 @@ Responsáveis: Valéria A. A. Barbosa
 
 
 == Introdução ==
+
 	O Plano de Gerenciamento de Configuração estabelece e mantem a integridade de códigos-fonte e demais produtos do SYSCO, permitindo o acompanhamento destes itens durante todo o ciclo de vida do projeto, e preservando o histórico de evolução dos sistema. Auxiliando a  gerenciar o estado dos itens de configuração dos sistemas, controlar as mudanças em itens de configuração e rastrear modificações nos itens de configuração ao longo do tempo.
 		
 === 1.1 Propósito ===
@@ -41,7 +42,6 @@ Responsáveis: Valéria A. A. Barbosa
         Esta seção explica o conceito de alguns termos importantes que serão mencionados no decorrer deste documento. Estes termos são descritos na tabela a seguir, estando apresentados por ordem alfabética. 
 
 ||    Termo ||  Descrição ||
-
 || Baseline || Conjunto de artefatos que recebe uma aprovação de estabilidade. Um baseline é usado como uma base no desenvolvimento das próximas fases dos artefatos e tem suas modificações controladas por um processo. ||
 || CR || Solicitação de Mudança (Change Request) ||
 || CVS || Sistema de Controle de Versão (Control Version System) ||
@@ -77,7 +77,7 @@ A apresenta os artefatos que podem ser gerados no processo e suas respectivas id
 || Story Board (documento de telas) || STB ||
 
 
- === 2.2 Versão dos Documentos ===
+=== 2.2 Versão dos Documentos ===
 	O padrão de versionamento dos artefatos  (exceto código e relatórios) devem ter um número de versão segundo o padrão descrito a seguir: 
 				XX.YY
 onde: 
@@ -94,7 +94,7 @@ Após cada aprovação do artefato, a versão X deve ser incrementada de uma uni
 ;
 ;
 ;
- === 2.3 Baselines do Projeto ===
+=== 2.3 Baselines do Projeto ===
 	As baselines geradas para o projeto:
 || Baseline || Descrição || Padrão ||
 || Requisitos || Marcado assim que for concluída análise de requisitos da iteração. || SYSCO_REQ_<interaçao> ||
@@ -117,12 +117,10 @@ Após cada aprovação do artefato, a versão X deve ser incrementada de uma uni
 === 3.1.1 Política de uso de branches ===
 	As solicitações de mudanças devem ser criadas através da ferramenta de issues disponível no site do projeto http://code.google.com/p/conexao/. Para tanto o usuário deve estar logado como administrador. O preenchimento dos campos deve ser feito seguindo as orientações descritas a seguir. Devem ser aprovadas pelo core team responsável pelo artefato em questão. 
 	
-|| Campo || Valor || Summary
-Breve descrição do problema
-Description
-Descrição detalhada do problema
-Status
-Open Statuses: 
+|| Campo || Valor || 
+|| Summary || Breve descrição do problema ||
+|| Description || Descrição detalhada do problema ||
+|| Status || Open Statuses: 
 New- A issue ainda não teve sua revisão inicial
 Accepted – problema reproduzido/precisa reconhecimento.
 Started – o trabalho nesta issue começou
@@ -132,13 +130,10 @@ Fixed – Desenvolvedor fez as mudanças pedidas, QA deve verificar.
 Verified – QA verificou que o reparo foi trabalhado
 Invalid – relatório não válido
 Duplicate – este relatório duplica uma issue existente
-WonFix – foi decidido não examinar esta issue
-Owner
-Responsável pela CR.
-Cc
-Lista de destinatários de cópias de e-mails relativos a essa mudança.
-Labels
-Permite que sejam selecionados o tipo e a prioridade  da issue, o sistema operacional...
+WonFix – foi decidido não examinar esta issue ||
+|| Owner || Responsável pela CR. ||
+|| Cc || Lista de destinatários de cópias de e-mails relativos a essa mudança.
+|| Labels || Permite que sejam selecionados o tipo e a prioridade  da issue, o sistema operacional...
 Type-Defect – Relato de um defeito no artefato a ser mudado.
 Type-Enhancement – Requerimento para melhoria no artefato.
 Type-Task – os artigos trabalhados não requerem mudança no código ou nos docs.
@@ -160,35 +155,25 @@ Componet-Docs – issue relacionada a documentação do usuário final.
 Security – segurança de risco dos usuários
 Performance – issue de desenpenho
 Usability – efeitos da usabilidade do programa
-Maintainability – impedir mudanças futuras.
-	=== 3.1.2 Ciclo de Vida das solicitações de mudança ===
+Maintainability – impedir mudanças futuras. ||
+
+=== 3.1.2 Ciclo de Vida das solicitações de mudança ===
 	Os possíveis estados, as possíveis soluções e o ciclo de vida de uma solicitação de mudanças. A seguir são descreve os estados possíveis para uma solicitação de mudanças.
 
- == Auditoria de Configuração ==
+== Auditoria de Configuração ==
 
 	As auditorias de configuração devem ser realizadas para cada ciclo do processo de desenvolvimento de forma a garantir que o processo de gerência de configuração estão sendo aplicados corretamente. Os artefatos gerados devem armazenados no repositório do projeto e devem ser acompanhados pelos Gerentes do Projeto.
 Plano de Contingência
 	Uma vez por semana será feito um backup da versão mais recente dos artefatos que se encontram no CVS na máquina de dois membros da fábrica participantes do projeto.
 
- == Ferramentas ==
+== Ferramentas ==
 	Segue abaixo uma lista das ferramentas utilizadas no processo de desenvolvimento do projeto SYSCO.
-Ferramenta 
-Descrição
-Code.google.com.br
-Ambiente para promoção de código livre, interação com desenvolvedores e gerenciamento de projetos.
-GantrProject
-Para a Gerência do Projeto
-GoogleGroups
-Comunicação da equipe
-MSN Live Messenger
-Ferramenta de Comunicação
-MySQL 4.1
-SGDB a ser utilizado.
-
-
-Skype 3.5
-Ferramenta de Comunicação
-TortoiseSVN 1.4.5
-Ferramenta para Gerência de Configuração (Subversion)
-VertrigoServ
-Ambiente de desenvolvimento  Web
+|| Ferramenta || Descrição ||
+|| Code.google.com.br || Ambiente para promoção de código livre, interação com desenvolvedores e gerenciamento de projetos. ||
+|| GantrProject || Para a Gerência do Projeto ||
+|| GoogleGroups || Comunicação da equipe ||
+|| MSN Live Messenger || Ferramenta de Comunicação ||
+|| MySQL 4.1 || SGDB a ser utilizado. ||
+|| Skype 3.5 || Ferramenta de Comunicação ||
+|| TortoiseSVN 1.4.5 || Ferramenta para Gerência de Configuração (Subversion) ||
+|| VertrigoServ || Ambiente de desenvolvimento  Web ||
