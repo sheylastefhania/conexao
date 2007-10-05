@@ -1,10 +1,10 @@
 = Plano de Gerência de Configuração de Software =
 
 
-  == Sistema de Controle de Custos ==
+== Sistema de Controle de Custos ==
  Cliente: Weslei A. de T. Marinho
 
-            = SYSCO =
+= SYSCO =
 
 Versão: 0.01 | 11/09/2007
 
