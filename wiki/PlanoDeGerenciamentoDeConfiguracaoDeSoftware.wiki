@@ -22,7 +22,7 @@ Responsáveis: Valéria A. A. Barbosa
 
 
 || Lista de Aprovadores ||
-|| Nome || Cargo || 
+||    Nome    || Cargo || 
 || Valéria Barbosa || Gerente de Projeto ||
 
 
@@ -77,7 +77,7 @@ A apresenta os artefatos que podem ser gerados no processo e suas respectivas id
 || Story Board (documento de telas) || STB ||
 
 
- == 2.2 Versão dos Documentos ==
+ === 2.2 Versão dos Documentos ===
 	O padrão de versionamento dos artefatos  (exceto código e relatórios) devem ter um número de versão segundo o padrão descrito a seguir: 
 				XX.YY
 onde: 
@@ -88,37 +88,20 @@ A primeira versão do artefato deve ser 0.01;
 A cada modificação no artefato, o valor YY deve ser incrementado;
 Após cada aprovação do artefato, a versão X deve ser incrementada de uma unidade e o valor YY retorna para 00, sendo assim gerada uma nova versão oficial;
 	Para que a versão de um artefato seja modificada é necessária a aprovação do moderador. É considerada uma aprovação do documento a aprovação do documento após uma revisão e aprovação por pelo menos dois membros do core group responsável pelo artefato respectivo.
- = 2.3 Localização de Artefatos =
+ === 2.3 Localização de Artefatos ===
 	A organização hierárquica do local onde serão armazenados os produtos do projeto, incluindo uma breve descrição do conteúdo de cada item da estrutura  (pasta). 
 ;
 ;
 ;
 ;
- == 2.3 Baselines do Projeto ==
+ === 2.3 Baselines do Projeto ===
 	As baselines geradas para o projeto:
-Baseline
-Descrição
-Padrão
-Requisitos
-Marcado assim que for concluída análise de requisitos da iteração. 
-SYSCO_REQ_<interaçao>
-Análise e Projeto
-Marcado quando forem concluídos a análise e o projeto de cada iteraçao
-SYSCO_ARCH_<iteraçao>
-Build
-Criada a cada build para o software
-SYSCO_BUILD_<build>
-Release
-Criado a cada release do software
-SYSCO_RELEASE_<versão>
-Documentos
-Criado após a aprovação de um documento.
-????
-
-
-
-
-
+|| Baseline || Descrição || Padrão ||
+|| Requisitos || Marcado assim que for concluída análise de requisitos da iteração. || SYSCO_REQ_<interaçao> ||
+|| Análise e Projeto || Marcado quando forem concluídos a análise e o projeto de cada iteraçao || SYSCO_ARCH_<iteraçao> ||
+|| Build || Criada a cada build para o software || SYSCO_BUILD_<build> ||
+|| Release || Criado a cada release do software || SYSCO_RELEASE_<versão> ||
+|| Documentos || Criado após a aprovação de um documento. || ???? ||
 
 
 <iteração> é o número da iteração, sendo utilizados para identificação dois dígitos começando em 01 e sendo incrementado de uma unidade a cada nova iteração.
@@ -128,15 +111,13 @@ Criado após a aprovação de um documento.
 
 == 3 Controle de Configuração ==
 
-	=== 3.1 Procedimentos de Mudança ===
+=== 3.1 Procedimentos de Mudança ===
 	As mudanças nos itens de configuração do projeto devem estar sempre associadas a uma ou mais solicitações de mudanças. Dessa forma, para toda e qualquer modificação nos itens de configuração, um CR deve ser aberta conforme descrito.
 	
-	=== 3.1.1 Política de uso de branches ===
+=== 3.1.1 Política de uso de branches ===
 	As solicitações de mudanças devem ser criadas através da ferramenta de issues disponível no site do projeto http://code.google.com/p/conexao/. Para tanto o usuário deve estar logado como administrador. O preenchimento dos campos deve ser feito seguindo as orientações descritas a seguir. Devem ser aprovadas pelo core team responsável pelo artefato em questão. 
 	
-Campo
-Valor
-Summary
+|| Campo || Valor || Summary
 Breve descrição do problema
 Description
 Descrição detalhada do problema
