@@ -78,7 +78,6 @@ A apresenta os artefatos que podem ser gerados no processo e suas respectivas id
 || Story Board (documento de telas) || STB ||
 
 
-
 === 2.2 Versão dos Documentos ===
 
 	O padrão de versionamento dos artefatos  (exceto código e relatórios) devem ter um número de versão segundo o padrão descrito a seguir: 
@@ -93,11 +92,13 @@ Após cada aprovação do artefato, a versão X deve ser incrementada de uma uni
 	Para que a versão de um artefato seja modificada é necessária a aprovação do moderador. É considerada uma aprovação do documento a aprovação do documento após uma revisão e aprovação por pelo menos dois membros do core group responsável pelo artefato respectivo.
 
 === 2.3 Localização de Artefatos ===
+
 	A organização hierárquica do local onde serão armazenados os produtos do projeto, incluindo uma breve descrição do conteúdo de cada item da estrutura  (pasta). 
 ;
 ;
 ;
 ;
+
 
 === 2.3 Baselines do Projeto ===
 
