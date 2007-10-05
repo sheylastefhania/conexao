@@ -45,7 +45,7 @@ Responsáveis: Valéria A. A. Barbosa
 || CR || Solicitação de Mudança (Change Request) ||
 || CVS || Sistema de Controle de Versão (Control Version System) ||
 || SCMP || Plano de Gerência de Configuração de Software (Software Configuration Management Plan) ||
-|| Core Team || ||
+|| Core Team || || 
 
 
 
@@ -78,8 +78,6 @@ A apresenta os artefatos que podem ser gerados no processo e suas respectivas id
 || Status Report || ST ||
 || Relatório de Testes || TSR ||
 || Story Board (documento de telas) || STB ||
-
-
 
 
 === 2.2 Versão dos Documentos ===
